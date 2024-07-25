@@ -6,3 +6,12 @@ O módulo main faz isso e aquilo. Ele, de vez em quando, quase nunca, mais com f
 
 """
 
+def calcula_area_quadrado():
+    lado_do_quadrado: float = 0.0
+
+    lado_do_quadrado = float(input('Informe o lado do quadrado: '))
+
+    print(f"Área do quadrado: {lado_do_quadrado**2}")
+
+
+calcula_area_quadrado()
